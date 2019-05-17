@@ -37,7 +37,7 @@ const mapStateToProps = (state,ownProps) =>{
 
 const mapDispatchToProps=(dispatch)=>{
     return {
-        deletePost: function deletePost(id){ // dont know why cant use ES6 func
+        deletePost: function deletePost(id){ // dont know why cant use ES6 function
             dispatch({
                 type:'DELETE_POST',
                 id:id
