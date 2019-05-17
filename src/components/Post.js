@@ -40,7 +40,7 @@ const mapDispatchToProps=(dispatch)=>{
         deletePost: function deletePost(id){ // dont know why cant use ES6 func
             dispatch({
                 type:'DELETE_POST',
-                id:id,
+                id:id
             })
         }
     }
